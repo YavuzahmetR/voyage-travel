@@ -2,7 +2,6 @@
 using System;
 using System.Data;
 using System.Data.SqlClient;
-using System.Globalization;
 using System.Windows.Forms;
 
 namespace Sefer_Seyahat
@@ -47,7 +46,7 @@ namespace Sefer_Seyahat
         }   
         private void CtrlTemizle(Control control)
         {
-            foreach (Control ctr in control.Controls)// groupBox4.Controls)
+            foreach (Control ctr in control.Controls)
             {
 
                 if (ctr is TextBox)
