@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 
 namespace DataAccessLayer
-{
+{//library
     public class DataAccess
     {
         public static string WorkstationId;
